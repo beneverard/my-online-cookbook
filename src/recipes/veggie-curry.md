@@ -16,8 +16,14 @@ ingredients:
   - 2g garam masala
   - 2/3 teaspoon salt
 ---
+### Method
+
 * Boil potatoes until soft (~20 mins), drain and set aside.
 * Meanwhile, cook the onions in a large saucepan on a medium heat until transparent (~5 mins).
 * Stir in the curry powder, ground ginger and garam masala with the onions, add a small amount of water and cook for one minute.
 * Add the tomatoes, yoghurt and potatoes to the onions, bring to the boil.
 * Cover and simmer for 20 minutes.
+
+### Prepping
+
+Portions of 250g can frozen, and re-heated in the microwave until piping hot throughout.
