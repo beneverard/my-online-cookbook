@@ -1,7 +1,8 @@
 ---
 title: Curry Powder
 image: /img/recipes/brownies.jpg
-tags: []
+tags:
+  - 🥫 Sub-recipe
 servings: 140
 servingsUnit: grammes
 ingredients:
