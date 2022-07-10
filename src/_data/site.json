@@ -1,12 +1,12 @@
 {
-    "name": "My Online Cookbook",
-    "metaDescription": "The online cookbook of John Doe",
-    "author": "John Doe",
+    "name": "Knife and Fork",
+    "metaDescription": "The online cookbook of Ben Everard",
+    "author": "Ben Everard",
     "primaryColor": "#ffdb70",
     "secondaryColor": "#32816e",
     "searchLabel": "Find recipes by name, tag or ingredients",
     "searchContainsLabel": "Contains",
     "servingsLabel": "servings",
     "ingredientsLabel": "Ingredients",
-    "baseURL": "https://myonlinecookbook.netlify.app"
+    "baseURL": "https://knife-and-fork.netlify.app"
 }
