@@ -19,17 +19,11 @@
                             {% endif %}
                             {% if not servings == "" %}
                                 <p>
-                                    <template x-if="currentServings > 1">
-                                        <button @click="currentServings -= 1" class="c-recipe__serving-button">
-                                            -
-                                            <span class="u-sr-only">Remove 1 serving</span>
-                                        </button>
-                                    </template>
-                                    <span x-text="currentServings"></span>
-                                    <button @click="currentServings += 1" class="c-recipe__serving-button">
-                                        +
-                                        <span class="u-sr-only">Add 1 serving</span>
-                                    </button>
+									<input
+										type="number"
+										x-model="currentServings"
+										class="c-recipe__servings-input"
+									>
                                     <span>{{ site.servingsLabel }}</span>
                                 </p>
                             {% endif %}
