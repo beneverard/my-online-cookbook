@@ -31,6 +31,12 @@ collections:
           required: false,
         }
       - {
+          label: "Servings unit",
+          name: "servingsUnit",
+          widget: "number",
+          required: false,
+        }
+      - {
           label: "Source of the recipe",
           name: "sourceLabel",
           widget: "string",

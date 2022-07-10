@@ -5,6 +5,7 @@ tags:
   - Meal Prep
 time: ""
 servings: 3
+servingsUnit: Portions
 ingredients:
   - 400g diced potatoes
   - 1 onion chopped
