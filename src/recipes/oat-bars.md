@@ -4,6 +4,7 @@ image: /img/recipes/e2f12073-2a97-4e42-aeae-cf66a8e5dc79.jpg
 tags:
   - snacks
 time: "10"
+servings: 1
 sourceLabel: Betty Crocker
 sourceURL: https://www.bettycrocker.com/recipes/copycat-nature-valley-oats-n-honey-bars/1844be8b-ece4-4c84-906e-81beeb9f386f
 ingredients:
