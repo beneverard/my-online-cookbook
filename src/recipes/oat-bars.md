@@ -2,7 +2,7 @@
 title: Oat Bars
 image: /img/recipes/e2f12073-2a97-4e42-aeae-cf66a8e5dc79.jpg
 tags:
-  - snacks
+  - 🍪 Snacks
 time: "10"
 servings: 1
 sourceLabel: Betty Crocker
