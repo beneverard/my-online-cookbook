@@ -2,6 +2,7 @@
 title: Curry Powder
 image: /img/recipes/brownies.jpg
 tags: []
+servings: ""
 ingredients:
   - 60g mild curry powder
   - 20g ground cumin
