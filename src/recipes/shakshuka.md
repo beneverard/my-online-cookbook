@@ -1,6 +1,6 @@
 ---
 title: Shakshuka
-image: /img/recipes/brownies.jpg
+image: /img/recipes/img_6586.jpeg
 tags:
   - 🍽 Meals
 time: ""
