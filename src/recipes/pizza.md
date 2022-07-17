@@ -3,7 +3,6 @@ title: Pizza
 image: /img/recipes/brownies.jpg
 tags:
   - 🍽 Meals
-  - 🍱 Meal Prep
 servings: 2
 ingredients:
   - 325g strong white flour
