@@ -1,6 +1,7 @@
 ---
 title: Pizza
 image: /img/recipes/brownies.jpg
+servings: 2
 ingredients:
   - 325g strong white flour
   - 3.5g fast action yeast
