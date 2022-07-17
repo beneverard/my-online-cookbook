@@ -1,6 +1,7 @@
 ---
 title: Pizza Sauce
 image: /img/recipes/brownies.jpg
+servings: 999
 ingredients:
   - 1 red onion finely chopped
   - Olive oil
