@@ -1,11 +1,10 @@
 ---
 title: Big Mac Sauce
-image: /img/recipes/brownies.jpg
+image: /img/recipes/e7973216-54f6-474b-954e-af342fc2824b.jpeg
 tags:
   - 🥫 Sub-recipe
 time: ""
-# servings: 3
-# servingsUnit: Portions
+servings: 270
 ingredients:
   - 1 cup mayo
   - 1.5 tbsp american mustard
