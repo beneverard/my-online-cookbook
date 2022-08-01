@@ -1,6 +1,8 @@
 ---
 title: Bread
 image: /img/recipes/brownies.jpg
+tags:
+  - 🥫 Sub-recipe
 ingredients:
   - 360g water
   - 4 tbsp skimmer milk powder
