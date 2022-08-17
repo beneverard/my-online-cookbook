@@ -18,6 +18,4 @@ ingredients:
   - Diced white onion
   - 1 tsp pickle juice
 ---
-### Method
-
 * Mix everything together and keep in the fridge

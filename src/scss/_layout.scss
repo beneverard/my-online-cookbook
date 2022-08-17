@@ -1,11 +1,12 @@
 .l-container {
     margin: 0 auto;
-    max-width: 1140px;
+    max-width: 900px;
+	width: 100%;
     padding-left: 18px;
     padding-right: 18px;
 }
 
-.l-header, .l-footer {
+.l-footer {
     padding: 12px;
     display: flex;
     justify-content: space-between;

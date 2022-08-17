@@ -1,66 +1,80 @@
 {% extends 'layouts/base.njk' %}
 
 {% block content %}
-    {% recipeimage image, "c-recipe__header-image", title, "100vw" %}
-    <h1 class="c-recipe__title">{{ title }}</h1>
-    <section>
-        <div class="l-container">
-            <div class="c-recipe__recipe-content-wrapper">
-                <div class="c-recipe__tag-list">
-                    {% for tag in tags %}
-                        <a class="c-tags__tag" href="/tags/{{ tag | noEmoji | slug }}">{{ tag }}</a>
-                    {% endfor %}
-                </div>
-                <div class="c-recipe__ingredients-wrapper" x-data='{currentServings: {{ servings if not servings == "" else false }}, ingredients: "{{ ingredients | arrayToString }}".split("£") }'>
-                    {% if time or not servings == "" %}
-                        <div class="c-recipe__additional-info">
-                            {% if time %}
-                                <p>{% include "icons/time.svg" %}{{ time }}</p>
-                            {% endif %}
-                            {% if not servings == "" %}
-                                <p>
-									<input
-										type="number"
-										x-model="currentServings"
-										class="c-recipe__servings-input"
-									>
-                                    <span>{{ servingsUnit }}</span>
-                                </p>
-                            {% endif %}
-                        </div>
-                    {% endif %}
+	<script>
+		document.addEventListener('alpine:init', () => {
+			Alpine.store('recipe', {
+				servings: {{ servings if not servings == "" else 1 }},
+				original_servings: {{ servings if not servings == "" else 1 }},
+				orignal_ingredients: {{ ingredients | dump | safe }},
 
-                    <h3>{{ site.ingredientsLabel }}</h3>
-                    <template x-if="currentServings">
-                        <ul class="c-recipe__ingredients-list">
-                            <template x-for="(ingredient, index) in ingredients" :key="index">
-                                <li x-text="adaptQuantity(ingredient, {{servings}}, currentServings)"></li>
-                            </template>
-                        </ul>
-                    </template>
+				adaptQuantity(ingredient) {
+					return ingredient.replace(/(\d|\.|,)+/, match => Number(Math.round(parseFloat(match) * this.servings / this.original_servings + 'e' + 2) + 'e-' + 2));
+				},
 
-                    <template x-if="!currentServings">
-                        <ul class="c-recipe__ingredients-list">
-                            {% for ingredient in ingredients %}
-                                <li>{{ ingredient }}</li>
-                            {% endfor %}
-                        </ul>
-                    </template>
-                </div>
+				get ingredients() {
+					return this.orignal_ingredients.map(ingredient => this.adaptQuantity(ingredient));
+				}
+			});
+		})
+	</script>
 
-                <div class="c-recipe__instructions-wrapper u-free-text">
-                    {% if sourceLabel and sourceURL %}
-                        <p>Source : <a href="{{ sourceURL }}" target="_blank" rel="noopener">{{ sourceLabel }}</a></p>
-                    {% endif %}
-                    {{ content | safe }}
-                </div>
-            </div>
-        </div>
-    </section>
+	<div class="recipe" x-data>
+		<a href="/">← Return to all recipes</a>
 
-    <script>
-        function adaptQuantity (ingredient, originalServings, currentServings) {
-            return ingredient.replace(/(\d|\.|,)+/, match => Number(Math.round(parseFloat(match) * currentServings / originalServings + 'e' + 2) + 'e-' + 2));
-        }
-    </script>
+		<h1 class="recipe__heading">{{ title }}</h1>
+
+		<div class="recipe__tags">
+			<div class="tag-list">
+				{% for tag in tags %}
+					<a class="tag-list__tag" href="/tags/{{ tag | noEmoji | slug }}">{{ tag }}</a>
+				{% endfor %}
+			</div>
+		</div>
+
+		{% if image %}
+			<div class="recipe__image">
+				{% recipeimage image, null, title, "100vw" %}
+			</div>
+		{% endif %}
+
+		{# <div class="c-recipe__instructions-wrapper u-free-text">
+			{% if sourceLabel and sourceURL %}
+				<p>Source : <a href="{{ sourceURL }}" target="_blank" rel="noopener">{{ sourceLabel }}</a></p>
+			{% endif %}
+		</div> #}
+
+		{% if time or not servings == "" %}
+			<div class="c-recipe__additional-info">
+				{% if time %}
+					<p>{% include "icons/time.svg" %}{{ time }}</p>
+				{% endif %}
+				{% if not servings == "" %}
+					<p>
+						<input
+							type="number"
+							x-model="$store.recipe.servings"
+							class="c-recipe__servings-input"
+						>
+						<span>{{ servingsUnit }}</span>
+					</p>
+				{% endif %}
+			</div>
+		{% endif %}
+
+		<h2>{{ site.ingredientsLabel }}</h2>
+
+		<div class="recipe__ingredients">
+			<template x-for="(ingredient, index) in $store.recipe.ingredients" :key="index">
+				<label class="recipe__ingredient">
+					<input type="checkbox" />
+					<span x-text="ingredient" />
+				</label>
+			</template>
+		</div>
+
+		<h2>Method</h2>
+
+		{{ content | safe }}
+	</div>
 {% endblock %}

@@ -11,7 +11,7 @@ ingredients:
   - Warm water
   - Pizza sauce
 ---
-## Making the dough
+### Making the dough
 
 1. Sift the flour, yeast and salt into a large mixing bowl.
 2. Add warm water a little at a time and manually mix into a dough. If it is too sticky add a little more flour, if too dry add more water. It should have a pliable texture.
@@ -20,7 +20,7 @@ ingredients:
 5. Put the dough back into the bowl and cover with Clingfilm (or a damp cloth).
 6. Place into a warm place and leave for at least an hour, preferably two.
 
-## Assembling your pizzas
+### Assembling your pizzas
 
 1. Around 50 minutes before you plan to serve put on the oven to 240°C and allow it to heat up fully – it is important that the oven is very hot when you put the pizzas in.
 2. At the same time remove the dough from the mixing bowl – which should have trebled in size – and kneed it (adding more flour as necessary as it will now be stickier) on the cold surface.

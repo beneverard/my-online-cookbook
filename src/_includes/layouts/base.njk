@@ -15,7 +15,7 @@
       <meta property="og:image:alt" content="Page image for {{ title }}" />
       <meta name="twitter:image:alt" content="Page image for {{ title }}" />
     {% endif %}
-    
+
     <style>
       :root {
         --color-primary: {{ site.primaryColor }};
@@ -24,14 +24,10 @@
       {% include "css/main.css" %}
     </style>
 
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
   </head>
   <body class="{{bodyClass}}">
-    <header class="l-header">
-        {% include "components/navigation.njk" %}
-    </header>
-
     <main>
         {% block content %}
             <div class="l-container">

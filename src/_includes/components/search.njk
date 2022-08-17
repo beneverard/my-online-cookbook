@@ -14,19 +14,19 @@
             matches = [];
 
             if (searchInput.length < 3) { return };
-    
+
             searchResults.forEach(recipe => {
                 const matchTitle = recipe.title.toLowerCase().includes(searchInput.toLowerCase());
                 const matchIngredient = recipe.ingredients.find(ingredient => ingredient.toLowerCase().includes(searchInput.toLowerCase()));
                 const matchTag = recipe.tags.find(tag => tag.toLowerCase().includes(searchInput.toLowerCase()));
-        
+
                 if (!matchTitle && !matchIngredient && !matchTag) { return };
-        
+
                 const match = {...recipe};
                 if (matchTitle) { match.matchTitle = matchTitle };
                 if (matchIngredient) { match.matchIngredient = matchIngredient };
                 if (matchTag) { match.matchTag = matchTag };
-        
+
                 matches.push(match)
             });
         ">
@@ -48,7 +48,7 @@
                         <div class="c-search__result-link {{ 'c-search__result-link--home' if homeSearch }}">
                             <a x-bind:href="match.url" x-html="highlightText(match.title, searchInput)"></a>
                             <template x-if="match.matchTag">
-                                <div class="c-tags__tag c-tag__tag--selected" x-html="highlightText(match.matchTag, searchInput)"></div>
+                                <div class="recipe__tags__tag c-tag__tag--selected" x-html="highlightText(match.matchTag, searchInput)"></div>
                             </template>
                         </div>
                         <template x-if="match.matchIngredient">

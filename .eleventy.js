@@ -6,7 +6,7 @@ const emojiRegex = /[\u{1f300}-\u{1f5ff}\u{1f900}-\u{1f9ff}\u{1f600}-\u{1f64f}\u
 module.exports = config => {
     config.setUseGitIgnore(false);
     config.addWatchTarget("./src/_includes/css/main.css");
-    
+
     config.addPassthroughCopy({ public: './' });
     config.addPassthroughCopy('src/img');
     config.addPassthroughCopy('src/fonts');
@@ -61,11 +61,6 @@ module.exports = config => {
         return value.toLowerCase();
     });
 
-    // This workaround is needed so we can transform it back into an array with Alpine (we can't split on "," as it can be included within the items)
-    config.addFilter('arrayToString', function(value) {
-        return value.join('£');
-    });
-
     /* Shortcodes */
     const imageShortcode = async (src, className, alt, sizes) => {
         let metadata = await Image(src.includes('http') ? src : `./src/${src}`, {
@@ -74,7 +69,7 @@ module.exports = config => {
             outputDir: './_site/img/recipes',
             urlPath: '/img/recipes/'
         });
-    
+
         let imageAttributes = {
             class: className,
             alt,
@@ -82,7 +77,7 @@ module.exports = config => {
             loading: "lazy",
             decoding: "async"
         };
-    
+
         return Image.generateHTML(metadata, imageAttributes);
     }
 
