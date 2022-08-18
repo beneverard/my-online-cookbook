@@ -1,16 +1,9 @@
 <nav>
-    <ul class="tag-list">
-        {% if page.fileSlug == "recipes" %}
-            <li class="tag-list__tag c-tag__tag--selected">{{ title }}{{ allRecipesLabel }}</li>
-        {% else %}
-            <li><a class="tag-list__tag" href="/recipes">{{ title }}{{ allRecipesLabel }}</a></li>
-        {% endif %}
+    <p class="recipe__tags">
+		Tags:
+
         {% for tagItem in collections.tagList %}
-            {% if selectedTag == tagItem %}
-                <li class="tag-list__tag c-tag__tag--selected">{{ tagItem }}</li>
-            {% else %}
-                <li><a class="tag-list__tag" href="/tags/{{ tagItem | noEmoji | slug }}">{{ tagItem }}</a></li>
-            {% endif %}
+			<a href="/tags/{{ tagItem | slug }}">{{ tagItem }}</a>
         {% endfor %}
-    </ul>
+    </p>
 </nav>

@@ -1,8 +1,7 @@
 ---
 title: Pizza Sauce
-image: /img/recipes/brownies.jpg
 tags:
-  - 🥫 Sub-recipe
+  - Sub-recipe
 servings: 999
 ingredients:
   - 1 red onion finely chopped

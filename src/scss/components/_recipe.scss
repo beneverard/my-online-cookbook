@@ -1,5 +1,5 @@
 .recipe {
-	@extend .l-container;
+
 }
 
 	.recipe__image {
@@ -51,37 +51,10 @@
 	}
 }
 
-.c-recipe__additional-info {
-    margin-bottom: 30px;
-
-    svg {
-        margin-right: 6px;
-        fill: var(--color-grey-900);
-    }
-}
-
-.c-recipe__servings-input {
+.recipe__servings-input {
 	width: 100px;
 }
 
-.c-recipe__recipe-content-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-
-    @include mq(medium) {
-        display: grid;
-        grid-template-columns: 400px 1fr;
-        grid-template-rows: min-content 1fr;
-        grid-template-areas:
-            "ingredients tags"
-            "ingredients instructions";
-    }
-}
-
-.recipe__tags {
+.recipe__meta {
     margin-bottom: 24px;
-    // display: flex;
-    // flex-wrap: wrap;
-    // gap: 12px;
 }

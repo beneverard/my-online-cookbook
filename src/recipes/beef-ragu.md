@@ -1,8 +1,7 @@
 ---
 title: Beef Ragu
-image: /img/recipes/brownies.jpg
 tags:
-  - 🍱 Meal Prep
+  - Meal Prep
 time: 30 mins to 1 hour
 sourceLabel: BBC Food
 sourceURL: https://www.bbc.co.uk/food/recipes/lasagne_95631

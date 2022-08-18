@@ -1,12 +1,5 @@
 {
     "name": "Knife and Fork",
     "metaDescription": "The online cookbook of Ben Everard",
-    "author": "Ben Everard",
-    "primaryColor": "#ffdb70",
-    "secondaryColor": "#32816e",
-    "searchLabel": "Find recipes by name, tag or ingredients",
-    "searchContainsLabel": "Contains",
-    "servingsLabel": "servings",
-    "ingredientsLabel": "Ingredients",
-    "baseURL": "https://knife-and-fork.netlify.app"
+    "author": "Ben Everard"
 }

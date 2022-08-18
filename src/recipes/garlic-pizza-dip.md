@@ -1,8 +1,7 @@
 ---
 title: Garlic Pizza Dip
-image: /img/recipes/coconut-lentil-soup.jpg
 tags:
-  - 🥫 Sub-recipe
+  - Sub-recipe
 ingredients:
   - 120g mayo
   - 120g sour cream

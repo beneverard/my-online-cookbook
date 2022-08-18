@@ -2,7 +2,7 @@
 title: Shakshuka
 image: /img/recipes/img_6586.jpeg
 tags:
-  - 🍽 Meals
+  - Meals
 time: ""
 servings: 4
 servingsUnit: Portions

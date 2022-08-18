@@ -1,9 +1,8 @@
 ---
 title: Veggie Curry
-image: /img/recipes/brownies.jpg
 tags:
-  - 🍽 Meals
-  - 🍱 Meal Prep
+  - Meals
+  - Meal Prep
 time: ""
 servings: 3
 servingsUnit: Portions

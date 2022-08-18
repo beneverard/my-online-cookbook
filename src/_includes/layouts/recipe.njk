@@ -24,12 +24,22 @@
 
 		<h1 class="recipe__heading">{{ title }}</h1>
 
-		<div class="recipe__tags">
-			<div class="tag-list">
+		<div class="recipe__meta">
+			<p class="recipe__tags">
+				Tags:
+
 				{% for tag in tags %}
-					<a class="tag-list__tag" href="/tags/{{ tag | noEmoji | slug }}">{{ tag }}</a>
+					<a href="/tags/{{ tag | slug }}">{{ tag }}</a>
 				{% endfor %}
-			</div>
+			</p>
+
+			{% if time %}
+				<p>Time: {{ time }}</p>
+			{% endif %}
+
+			{% if sourceLabel and sourceURL %}
+				<p>Source: <a href="{{ sourceURL }}" target="_blank" rel="noopener">{{ sourceLabel }}</a></p>
+			{% endif %}
 		</div>
 
 		{% if image %}
@@ -38,31 +48,18 @@
 			</div>
 		{% endif %}
 
-		{# <div class="c-recipe__instructions-wrapper u-free-text">
-			{% if sourceLabel and sourceURL %}
-				<p>Source : <a href="{{ sourceURL }}" target="_blank" rel="noopener">{{ sourceLabel }}</a></p>
-			{% endif %}
-		</div> #}
-
-		{% if time or not servings == "" %}
-			<div class="c-recipe__additional-info">
-				{% if time %}
-					<p>{% include "icons/time.svg" %}{{ time }}</p>
-				{% endif %}
-				{% if not servings == "" %}
-					<p>
-						<input
-							type="number"
-							x-model="$store.recipe.servings"
-							class="c-recipe__servings-input"
-						>
-						<span>{{ servingsUnit }}</span>
-					</p>
-				{% endif %}
-			</div>
+		{% if not servings == "" %}
+			<p>
+				<input
+					type="number"
+					x-model="$store.recipe.servings"
+					class="recipe__servings-input"
+				>
+				<span>{{ servingsUnit }}</span>
+			</p>
 		{% endif %}
 
-		<h2>{{ site.ingredientsLabel }}</h2>
+		<h2>Ingredients</h2>
 
 		<div class="recipe__ingredients">
 			<template x-for="(ingredient, index) in $store.recipe.ingredients" :key="index">
