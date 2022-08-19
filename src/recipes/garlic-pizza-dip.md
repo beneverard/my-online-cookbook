@@ -1,5 +1,5 @@
 ---
-title: Garlic Pizza Dip
+title: Garlic pizza dip
 tags:
   - Sub-recipe
 ingredients:
