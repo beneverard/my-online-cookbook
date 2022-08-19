@@ -1,5 +1,5 @@
 ---
-title: Veggie Curry
+title: Veggie curry
 tags:
   - Meals
   - Meal Prep
