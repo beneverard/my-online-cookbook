@@ -1,5 +1,5 @@
 ---
-title: Oat Bars
+title: Oat bars
 image: /img/recipes/e2f12073-2a97-4e42-aeae-cf66a8e5dc79.jpg
 tags:
   - Snacks
