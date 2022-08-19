@@ -3,6 +3,8 @@ title: Cheese and onion pasties
 image: ""
 tags:
   - Snacks
+sourceLabel: Family Comforts, Rebecca Wilson
+sourceURL: https://www.waterstones.com/book/family-comforts/rebecca-wilson/9780241534694
 ingredients:
   - 225g maris piper potatoes (diced 2.5cm)
   - 1 onion (finely diced)
