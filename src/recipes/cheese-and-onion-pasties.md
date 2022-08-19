@@ -1,6 +1,6 @@
 ---
 title: Cheese and onion pasties
-image: /img/recipes/brownies.jpg
+image: ""
 tags:
   - Snacks
 ingredients:
