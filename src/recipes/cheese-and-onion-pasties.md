@@ -9,7 +9,7 @@ ingredients:
   - 225g maris piper potatoes (diced 2.5cm)
   - 1 onion (finely diced)
   - 120g cheddar cheese (grated)
-  - 375g sheet of ready rolled ouff pastry
+  - 375g sheet of ready rolled puff pastry
   - 1 egg (beaten)
 ---
 1. Preheat oven to 190°C
