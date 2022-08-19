@@ -1,5 +1,5 @@
 ---
-title: Curry Powder
+title: Curry powder
 tags:
   - Sub-recipe
 servings: 140
