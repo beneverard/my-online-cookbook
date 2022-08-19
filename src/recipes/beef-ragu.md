@@ -1,5 +1,5 @@
 ---
-title: Beef Ragu
+title: Beef ragu
 tags:
   - Meal Prep
 time: 30 mins to 1 hour
