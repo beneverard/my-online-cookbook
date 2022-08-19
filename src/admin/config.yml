@@ -11,7 +11,10 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Image", name: "image", widget: "image" }
+      - label: "Image"
+        name: "image"
+        widget: "image"
+        required: false
       - label: "Tags"
         name: "tags"
         widget: "list"
