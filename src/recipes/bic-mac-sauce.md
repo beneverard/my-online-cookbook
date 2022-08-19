@@ -1,5 +1,5 @@
 ---
-title: Big Mac Sauce
+title: Big mac sauce
 image: /img/recipes/e7973216-54f6-474b-954e-af342fc2824b.jpeg
 tags:
   - Sub-recipe
