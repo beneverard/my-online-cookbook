@@ -1,5 +1,5 @@
 ---
-title: Fajita Mix
+title: Fajita mix
 tags:
   - Sub-recipe
 servings: 120
