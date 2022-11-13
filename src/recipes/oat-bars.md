@@ -12,7 +12,7 @@ ingredients:
   - 100g white cholocate chips
   - 1/4 teaspoon backing soda
   - 1/4 teaspoon salt
-  - 3/4 cup sunflower oil
+  - 1.5/4 cup sunflower oil
   - 1/4 cup honey
   - 1/4 cup castor sugar
   - 1 teaspoon vanilla
