@@ -2,7 +2,7 @@
 title: Veggie curry
 tags:
   - Meals
-  - Meal Prep
+  - Meal prep
 time: ""
 servings: 3
 servingsUnit: Portions
