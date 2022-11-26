@@ -12,6 +12,8 @@ ingredients:
   - 4 cloves of garlic finely chopped
   - 1 tin of good quanlity chopped tomatoes
   - 5 tbsp tomato pasata
+  - 1 tsb pesto
+  - 1 tbsp tomato puree
 ---
 1. Add a few glugs of olive oil to a pan on a low heat, and add the onions.
 2. After a couple of minutes add the pressed garlic, oregano, pesto, tomato concentrate, and the salt and pepper.
