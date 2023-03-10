@@ -8,10 +8,10 @@ servings: 3
 servingsUnit: Portions
 ingredients:
   - 400g diced potatoes
-  - 1 onion chopped
+  - 1 onions chopped
   - 400g tinned tomatoes
   - 12g curry powder
-  - 100g green style yoghurt
+  - 100g greek style yoghurt
   - 2g ground ginger
   - 2g garam masala
   - 2/3 teaspoon salt
@@ -25,3 +25,7 @@ ingredients:
 ### Prepping
 
 Portions of 250g can frozen, and re-heated in the microwave until piping hot throughout.
+
+### Notes
+
+- 600g portion for family meal is ideal
