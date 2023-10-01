@@ -22,6 +22,7 @@ ingredients:
 * Stir in the curry powder, ground ginger and garam masala with the onions, add a small amount of water and cook for one minute.
 * Add the tomatoes, yoghurt and potatoes to the onions, bring to the boil.
 * Cover and simmer for 20 minutes.
+* Gently fry the paneer cheese until browned and add to the simmering pot.
 
 ### Prepping
 
