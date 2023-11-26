@@ -4,11 +4,11 @@ tags:
   - Sub-recipe
 ingredients:
   - 360g water
-  - 4 tbsp skimmer milk powder
-  - 4 tbsp sunflower oil
-  - 3 tbsp sugar
-  - 2 tsp salt
+  - 32g skimmed milk powder
+  - 60g sunflower oil
+  - 43g sugar
+  - 16g salt
   - 576g strong white bread flour
-  - 1 1/4 tsp fast action yeast
+  - 1 1/4 tsp fast-action yeast
 ---
-Recipe for my break maker
+Recipe for my bread maker
