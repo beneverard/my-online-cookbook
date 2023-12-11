@@ -10,8 +10,8 @@ ingredients:
   - 400g diced potatoes
   - 1 onions chopped
   - 400g tinned tomatoes
-  - 12g curry powder
   - 100g greek style yoghurt
+  - 12g curry powder
   - 2g ground ginger
   - 2g garam masala
   - 4.8g salt
