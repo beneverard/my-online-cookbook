@@ -12,9 +12,9 @@ ingredients:
   - 100g white cholocate chips
   - 1/4 teaspoon backing soda
   - 1/4 teaspoon salt
-  - 1.5/4 cup sunflower oil
-  - 1/4 cup honey
-  - 1/4 cup castor sugar
+  - 102.5g cup sunflower oil
+  - 112.5g cup honey
+  - 67.5g cup castor sugar
   - 1 teaspoon vanilla
 ---
 1. Heat oven to 150°C. Line a pan with baking paper.
