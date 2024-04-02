@@ -8,7 +8,7 @@ sourceURL: https://www.bbc.co.uk/food/recipes/lasagne_95631
 ingredients:
   - 3 onions very finely chopped
   - 4 carrots very finely chopped
-  - 4 garlic gloves roughly chopped
+  - 4 garlic cloves roughly chopped
   - 1kg beef mince
   - 500g pork mince
   - 1 litre beef stock
