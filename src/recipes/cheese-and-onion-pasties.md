@@ -1,6 +1,8 @@
 ---
 title: Cheese and onion pasties
 image: ""
+servings: 4
+servingsUnit: Pasties
 tags:
   - Snacks
 sourceLabel: Family Comforts, Rebecca Wilson
